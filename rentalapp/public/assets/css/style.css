@@ -6,13 +6,13 @@ body {
 	background: white;
 }
 
-!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!                 !!!!
-!!!!      HEADER     !!!!
-!!!!                 !!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                          !!!!
+	!!!!           HEADER         !!!!
+	!!!!                          !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
 
 .header {
 	height: 60px;
@@ -50,13 +50,13 @@ body {
 }
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!                       !!!!
-!!!!      LANDING PAGE     !!!!
-!!!!                       !!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!        LANDING PAGE       !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
 
 #firstImage {
 	background-image: url('../images/ScenicBeach.png');
@@ -130,34 +130,174 @@ body {
 	padding-top: 65px;
 }
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!                           !!!!
-!!!!      LEAVE / TAKE BOX     !!!!
-!!!!                           !!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!       GET / GIVE BOX      !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
 
 .giveStuffBox {
+	background: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	width: 60%;
+	position: relative;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	border-radius: 5px;
 
 }
 
 .giveStuffTitleBox {
-
+	float: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	width: 50%;
+	background: #87CEEB;
+	color: white;
+	border-radius: 3px 0px 0px 0px;
 }
 
 .giveStuffTitle {
-
+	padding-left: 20px;
+	padding-top: 5px;
 }
 
 .giveStuffContentBox {
-
+	width: 50%;
+	float: left;
+	clear: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	background: #FFFAF0;
+	height: 84.5%;
+	border-radius: 0px 0px 0px 3px;
 }
 
 .giveStuffContentText {
-
+	padding-left: 20px;
+	padding-top: 10px;
 }
 
 .giveStuffContentMap {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background: red;
+	border-radius: 0px 0px 3px 0px;
 
+}
+
+.getStuffBox {
+	background: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	width: 60%;
+	position: relative;
+	height: 320px;
+	margin-top: 30px;
+	margin-left: 30px;
+	border-radius: 5px;
+
+}
+
+.getStuffTitleBox {
+	float: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	width: 50%;
+	background: #87CEEB;
+	color: white;
+	border-radius: 3px 0px 0px 0px;
+}
+
+.getStuffTitle {
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.getStuffContentBox {
+	width: 50%;
+	float: left;
+	clear: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	background: #FFFAF0;
+	height: 84.5%;
+	border-radius: 0px 0px 0px 3px;
+}
+
+.getStuffContentText {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.getStuffContentMap {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background: red;
+	border-radius: 0px 0px 3px 0px;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!   GET / GIVE BOX BUTTONS  !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+#getCheckbox {
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+.getStuffContentSubtextBox {
+	width: 100%;
+}
+
+.getStuffContentSubtext {
+	float: left;
+	margin-left: 8.5%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	width: 36%;
+	margin-top: 2%;
+}
+
+.getStuffContentSubtextText {
+	text-align: center;
+	padding-top: 5%
+}
+
+.giveStuffContentSubtextBox {
+	width: 100%;
+}
+
+.giveStuffContentSubtext {
+	float: left;
+	margin-left: 8.5%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	width: 36%;
+	margin-top: 17%
+}
+
+.giveStuffContentSubtextText {
+	text-align: center;
+	padding-top: 5%
 }
