@@ -59,7 +59,7 @@ body {
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 #firstImage {
-	background-image: url('ScenicBeach.png');
+	background-image: url('../images/ScenicBeach.png');
 	background-repeat: no-repeat;
 	width: 100%;
 	background-size: 100% 620px;
@@ -106,7 +106,7 @@ body {
 }
 
 #secondImage {
-	background-image: url('BeachImage.jpg');
+	background-image: url('../images/BeachImage.jpg');
 	background-repeat: no-repeat;
 	width: 100%;
 	background-size: 100% 620px;
