@@ -1,0 +1,163 @@
+body {
+	background: #FAF0E6;
+}
+
+.mainFrame {
+	background: white;
+}
+
+!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!                 !!!!
+!!!!      HEADER     !!!!
+!!!!                 !!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!
+
+.header {
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	margin-bottom: 60px;
+	background: #FFE4B5;
+	z-index: 999;
+}
+
+.header .routesHolder:hover {
+	background: #87CEEB;
+	color: white;
+}
+
+.routesBox {
+	float: right;
+}
+
+.routesHolder {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+	height: 100%;
+	padding-top: 12px;
+	padding-bottom: 8px;
+}
+
+.titleBox {
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 60px;
+	padding-top: 3px;
+}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!                       !!!!
+!!!!      LANDING PAGE     !!!!
+!!!!                       !!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+#firstImage {
+	background-image: url('../images/ScenicBeach.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100% 620px;
+	margin-top: 60px;
+	position: static;
+	height: 700px;
+}
+
+.firstImageTextBox {
+	position: relative;
+	padding-top: 140px;
+	color: white;
+	z-index: 0;
+}
+
+.firstImageTopText {
+	padding-left: 40px;
+	padding-top: 80px;
+	z-index: 0;
+}
+
+.firstImageBottomText {
+	padding-left: 220px;
+	padding-top: 65px;
+	z-index: 0;
+}
+
+#firstBlurbBox {
+	height: 300px;
+}
+
+.firstBlurbOne {
+	width: 50%;
+	float: left;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.firstBlurbTwo {
+	width: 50%;
+	float: right;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#secondImage {
+	background-image: url('../images/BeachImage.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100% 620px;
+	height: 620px;
+	position: static;
+}
+
+.secondImageTextBox {
+	position: relative;
+	padding-top: 140px;
+	color: white;
+}
+
+.secondImageTopText {
+	padding-left: 40px;
+	padding-top: 80px;
+}
+
+.secondImageBottomText {
+	padding-left: 220px;
+	padding-top: 65px;
+}
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!                           !!!!
+!!!!      LEAVE / TAKE BOX     !!!!
+!!!!                           !!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+.giveStuffBox {
+
+}
+
+.giveStuffTitleBox {
+
+}
+
+.giveStuffTitle {
+
+}
+
+.giveStuffContentBox {
+
+}
+
+.giveStuffContentText {
+
+}
+
+.giveStuffContentMap {
+
+}
