@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
 import GoogleLogin from 'react-google-login';
-import { GoogleLogout } from 'react-google-login';
+
  
  
 const responseGoogle = (response) => {
@@ -23,11 +22,6 @@ class App extends Component {
     onSuccess={responseGoogle}
     onFailure={responseGoogle}
       />
-      <GoogleLogout
-      buttonText="Logout"
-      onLogoutSuccess={logout}
-    >
-    </GoogleLogout>
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
