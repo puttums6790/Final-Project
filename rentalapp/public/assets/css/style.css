@@ -2,6 +2,15 @@ body {
 	background: #FAF0E6;
 }
 
+.pageFrame {
+	background: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 60px;
+	float: left;
+	width: 90%;
+}
+
 /*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	!!!!                          !!!!
@@ -324,15 +333,6 @@ body {
 	margin-top: 10%;
 }
 
-.profileFrame {
-	background: white;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 60px;
-	float: left;
-	width: 90%;
-}
-
 .profileHeaderName {
 }
 
@@ -373,4 +373,41 @@ body {
 	width: 250px;
 	padding-left: 20px;
 	padding-top: 15px;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!        SEARCH PAGE        !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.searchPageHeader {
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+.searchPageTitleSplit {
+	margin-left: 4%;
+	margin-right: 4%;
+
+}
+
+#searchPageInput {
+	margin-left: 6%;
+	margin-top: 3%;
+	width: 80%;
+}
+
+#searchPageOutput {
+	margin-left: 6%;
+	margin-top: 2%;
+}
+
+.searchPageMapBox {
+	width: 80%;
+	margin-left: 6%;
+	height: 380px;
+	background: green;
 }
