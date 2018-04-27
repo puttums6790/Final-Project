@@ -2,10 +2,6 @@ body {
 	background: #FAF0E6;
 }
 
-.mainFrame {
-	background: white;
-}
-
 /*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	!!!!                          !!!!
@@ -143,7 +139,7 @@ body {
 	border-style: solid;
 	border-width: 2px;
 	border-color: black;
-	width: 60%;
+	width: 93%;
 	position: relative;
 	height: 300px;
 	margin-top: 30px;
@@ -199,7 +195,7 @@ body {
 	border-style: solid;
 	border-width: 2px;
 	border-color: black;
-	width: 60%;
+	width: 93%;
 	position: relative;
 	height: 320px;
 	margin-top: 30px;
@@ -232,7 +228,7 @@ body {
 	border-width: 0px 2px 0px 0px;
 	border-color: black;
 	background: #FFFAF0;
-	height: 84.5%;
+	height: 85.5%;
 	border-radius: 0px 0px 0px 3px;
 }
 
@@ -300,4 +296,81 @@ body {
 .giveStuffContentSubtextText {
 	text-align: center;
 	padding-top: 5%
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!        MY STUFF PAGE      !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.profileHeader {
+
+}
+
+.profileHeaderPicture {
+	height: 250px;
+	width: 250px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+.profileHeaderInfo {
+	float: left;
+	margin-left: 4%;
+	margin-top: 10%;
+}
+
+.profileFrame {
+	background: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 60px;
+	float: left;
+	width: 90%;
+}
+
+.profileHeaderName {
+}
+
+.myStuffFrame {
+	background: white;
+	width: 70%;
+	float: right;
+	margin-right: 2%;
+}
+
+.myGets {
+	margin-top: 4%;
+}
+
+.personalInfoBox {
+	float: left;
+	clear: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 250px;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+.giveGetTrackerBox {
+	float: left;
+	clear: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 250px;
+	padding-left: 20px;
+	padding-top: 15px;
 }
