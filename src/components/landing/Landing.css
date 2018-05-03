@@ -1,0 +1,84 @@
+#firstImage {
+	background-image: url('ScenicBeach.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100% 620px;
+	margin-top: 60px;
+	position: static;
+	height: 700px;
+}
+
+.firstImageTextBox {
+	position: relative;
+	padding-top: 140px;
+	color: white;
+	z-index: 0;
+}
+
+.firstImageTopText {
+	padding-left: 40px;
+	padding-top: 80px;
+	z-index: 0;
+}
+
+.firstImageBottomText {
+	padding-left: 220px;
+	padding-top: 65px;
+	z-index: 0;
+}
+
+#firstBlurbBox {
+	height: 300px;
+}
+
+.firstBlurbOne {
+	width: 50%;
+	float: left;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.firstBlurbTwo {
+	width: 50%;
+	float: right;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#secondImage {
+	background-image: url('BeachImage.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100% 620px;
+	height: 620px;
+	position: static;
+}
+
+.secondImageTextBox {
+	position: relative;
+	padding-top: 140px;
+	color: white;
+}
+
+.secondImageTopText {
+	padding-left: 40px;
+	padding-top: 80px;
+}
+
+.secondImageBottomText {
+	padding-left: 220px;
+	padding-top: 65px;
+}
+
+body {
+	background: #FAF0E6;
+}
+
+.pageFrame {
+	background: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 60px;
+	float: left;
+	width: 90%;
+}

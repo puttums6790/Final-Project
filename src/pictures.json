@@ -1,0 +1,20 @@
+[
+
+    {
+        "id": 1,
+        "name": "BeachOne",
+        "src": "../public/assets/images/BeachImage.jpg"
+    },
+    {
+        "id": 2,
+        "name": "HikingOne",
+        "src": "../public/assets/images/hikingImageTwo.jpg"
+    },
+    {
+        "id": 3,
+        "name": "BeachTwo",
+        "src": "../public/assets/img/ScenicBeach.jpg"
+    }
+    
+    
+]
