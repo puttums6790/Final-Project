@@ -11,49 +11,6 @@ body {
   width: 90%;
 }
 
-/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  !!!!                          !!!!
-  !!!!           HEADER         !!!!
-  !!!!                          !!!!
-  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
-
-.header {
-  height: 60px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  margin-bottom: 60px;
-  background: #FFE4B5;
-  z-index: 999;
-}
-
-.header .routesHolder:hover {
-  background: #87CEEB;
-  color: white;
-}
-
-.routesBox {
-  float: right;
-}
-
-.routesHolder {
-  float: left;
-  padding-right: 30px;
-  padding-left: 30px;
-  height: 100%;
-  padding-top: 12px;
-  padding-bottom: 8px;
-}
-
-.titleBox {
-  float: left;
-  margin-left: 30px;
-  margin-bottom: 60px;
-  padding-top: 3px;
-}
-
 
 /*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -64,7 +21,7 @@ body {
   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
 
 #firstImage {
-  background-image: url('../images/ScenicBeach.png');
+ /* background-image: url('../public/images/ScenicBeach.png'); */
   background-repeat: no-repeat;
   width: 100%;
   background-size: 100% 620px;
@@ -111,7 +68,7 @@ body {
 }
 
 #secondImage {
-  background-image: url('../images/BeachImage.jpg');
+  /* background-image: url('../public/images/BeachImage.jpg'); */
   background-repeat: no-repeat;
   width: 100%;
   background-size: 100% 620px;
@@ -525,7 +482,7 @@ body {
 }
 
 .registrationFrame {
-  background-image: url('../public/images/hikingImageTwo.jpg');
+ /* background-image: url('../public/images/hikingImageTwo.jpg'); */
   background-repeat: no-repeat;
   width: 90%;
   background-size: 100% 666px;
