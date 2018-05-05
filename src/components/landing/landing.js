@@ -36,13 +36,13 @@ const Landing = pages => {
   </div>
   <div className="imageBannerOne">
     <div id="bannerOne">
-      <img src="" />
+      
     </div>
     <div id="bannerTwo">
-      <img src="" />
+      
     </div>
     <div id="bannerThree">
-      <img src="" />
+      
     </div>
   </div>
   <div className="secondBlurbBox">
@@ -51,13 +51,13 @@ const Landing = pages => {
     <h1>WE GOT SOME TEXT</h1>
   </div>
   <div className="imageBannerTwo">
-    <div id="bannerOne">
+    <div id="bannerFour">
       <img src="" />
     </div>
-    <div id="bannerTwo">
+    <div id="bannerFive">
       <img src="" />
     </div>
-    <div id="bannerThree">
+    <div id="bannerSix">
       <img src="" />
     </div>
   </div>

@@ -101,6 +101,9 @@ body {
 	width: 33%;
 	float: left;
 	height: 150px;
+	background-image: url("BeachImage.jpg");
+	background-size: 100% 150px;
+
 }
 
 #bannerTwo {
@@ -108,6 +111,8 @@ body {
 	width: 34%;
 	float: left;
 	height: 150px;
+	background-image: url("ScenicBeach.png");
+	background-size: 100% 150px;
 }
 
 #bannerThree {
@@ -115,4 +120,6 @@ body {
 	width: 33%;
 	float: left;
 	height: 150px;
+	background-image: url("BeachImage.jpg");
+	background-size: 100% 150px;
 }
