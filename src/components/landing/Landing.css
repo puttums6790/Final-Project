@@ -1,9 +1,9 @@
 #firstImage {
-	background-image: url('ScenicBeach.png');
+	background-image: url('ParkBackground.jpg');
 	background-repeat: no-repeat;
 	width: 100%;
 	background-size: 100% 620px;
-	margin-top: 60px;
+	margin-top: 40px;
 	position: static;
 	height: 700px;
 }
@@ -22,13 +22,18 @@
 }
 
 .firstImageBottomText {
-	padding-left: 220px;
-	padding-top: 65px;
+	padding-left: 69%;
+	padding-top: 50px;
 	z-index: 0;
 }
 
 #firstBlurbBox {
 	height: 300px;
+}
+
+.blurbTitle {
+	font-size: 5.0rem;
+	margin-bottom: 20px;
 }
 
 .firstBlurbOne {
@@ -45,31 +50,6 @@
 	padding-right: 40px;
 }
 
-#secondImage {
-	background-image: url('BeachImage.jpg');
-	background-repeat: no-repeat;
-	width: 100%;
-	background-size: 100% 620px;
-	height: 620px;
-	position: static;
-}
-
-.secondImageTextBox {
-	position: relative;
-	padding-top: 140px;
-	color: white;
-}
-
-.secondImageTopText {
-	padding-left: 40px;
-	padding-top: 80px;
-}
-
-.secondImageBottomText {
-	padding-left: 220px;
-	padding-top: 65px;
-}
-
 body {
 	background: #FAF0E6;
 }
@@ -81,4 +61,58 @@ body {
 	margin-top: 60px;
 	float: left;
 	width: 90%;
+}
+
+.websiteName {
+	font-size: 9.0rem;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.websiteSubOne {
+	font-size: 3.0rem;
+	margin-top: 40px;
+	margin-left: 27%
+}
+
+.websiteSubTwo {
+	font-size: 3.0rem;
+	margin-left: 37%;
+	margin-top: 20px;
+}
+
+.imageBannerOne {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 120px;
+	clear: both;
+}
+
+.imageBannerTwo {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 150px;
+	clear: both;
+}
+
+#bannerOne {
+	background: red;
+	width: 33%;
+	float: left;
+	height: 150px;
+}
+
+#bannerTwo {
+	background: green;
+	width: 34%;
+	float: left;
+	height: 150px;
+}
+
+#bannerThree {
+	background: red;
+	width: 33%;
+	float: left;
+	height: 150px;
 }

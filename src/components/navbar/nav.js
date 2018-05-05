@@ -27,12 +27,13 @@ const GuestNavbar = props => {
             <h1>ReLacks</h1>
           </div>
           <div className="routesBox">
-            <div className="routesHolder">
-              <Link to="/login">SIGN IN</Link>
-            </div>
-            <div className="routesHolder">
-              <Link to="/register">Not a member REGISTER</Link>
-            </div>
+            <Link to="/login"><div className="routesHolder">
+              <p>SIGN IN</p>
+            </div></Link>
+            
+            <Link to="/register"><div className="routesHolder">
+              <p>Not a member REGISTER</p>
+            </div></Link>
           </div>
         </div>;
 }
