@@ -130,7 +130,7 @@ body {
 	width: 33%;
 	float: left;
 	height: 150px;
-	background-image: url("BeachImage.jpg");
+	background-image: url("BannerFive.jpg");
 	background-size: 100% 170px;
 }
 
@@ -139,7 +139,7 @@ body {
 	width: 33%;
 	float: left;
 	height: 150px;
-	background-image: url("BeachImage.jpg");
+	background-image: url("BannerFour.jpeg");
 	background-size: 100% 170px;
 }
 
@@ -148,6 +148,6 @@ body {
 	width: 33%;
 	float: left;
 	height: 150px;
-	background-image: url("BeachImage.jpg");
+	background-image: url("BannerSix.jpg");
 	background-size: 100% 170px;
 }
