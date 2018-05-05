@@ -5,7 +5,6 @@ const ProfilePage = pages => {
   return <div className="profileFrame">
   <div className="profileHeader">
     <div className="profileHeaderPictureBox">
-      <img src="ProfilePicPlaceholder.png" className="profileHeaderPicture"/>
     </div>
     <div className="profileHeaderInfo">
       <h1 className="profileHeaderName">firstName lastName</h1>
@@ -17,9 +16,13 @@ const ProfilePage = pages => {
   </div>
   <div className="myStuffFrame">
     <h3 className="myGives">MY GIVES</h3>
-      'give card'
+    <div className="cardHolder">
+      <p>load cards here</p>
+    </div>
     <h3 className="myGets">MY GETS</h3>
-      'get card'
+    <div className="cardHolder">
+      <p>load cards here</p>
+    </div>
   </div>
   <div className="personalInfoBox">
     <p>EXAMPLE: </p>

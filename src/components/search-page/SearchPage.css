@@ -39,3 +39,8 @@ body {
 	height: 380px;
 	background: green;
 }
+
+.searchCardHolder {
+	margin-top: 30px;
+	margin-left: 6.5%;
+}

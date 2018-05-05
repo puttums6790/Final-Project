@@ -14,8 +14,8 @@ const SearchPage = pages => {
     <div className="searchPageMapBox">
       <h2>GOOGLE MAPS HERE</h2>
     </div>
-    <div>
-      'CARDS FROM HERE ON OUT'
+    <div className="searchCardHolder">
+      <p>cards from here on out</p>
     </div>
   </div>;
 }
