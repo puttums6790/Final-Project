@@ -6,18 +6,18 @@ const Landing = pages => {
         <div id="firstImage">
           <div className="firstImageTextBox">
             <div className="firstImageTopText">
-              <h3>Why stress,</h3>
-              <h3>'when you can just...'</h3>
+              <h3 className="websiteSubOne">Why stress,</h3>
+              <h3 className="websiteSubTwo">when you can just...</h3>
             </div>
             <div className="firstImageBottomText">
-              <h1>ReLacks</h1>
+              <h1 className="websiteName">ReLacks</h1>
             </div>
           </div>
         </div>
       <div id="firstBlurbBox">
     <div className="firstBlurbOne">
       <div className="firstBlurbOneTitle">
-        <h1>Give Stuff</h1>
+        <h1 className="blurbTitle">GIVE</h1>
       </div>
       <div className="firstBlurbOneText">
         <p>Don't toss your stuff if you no longer need them!</p>
@@ -28,7 +28,7 @@ const Landing = pages => {
     </div>
     <div className="firstBlurbTwo">
       <div className="firstBlurbTwoTitle">
-        <h1>Get Stuff</h1>
+        <h1 className="blurbTitle">GET</h1>
       </div>
       <div className="firstBlurbTwoText">
         <p>Why spend money on things you will only use once!</p>
@@ -36,15 +36,31 @@ const Landing = pages => {
       </div>
     </div>
   </div>
-  <div id="secondImage">
-    <div className="secondImageTextBox">
-      <div className="secondImageTopText">
-        <h3>Why stress,</h3>
-        <h3>when you can just...</h3>
-      </div>
-      <div className="secondImageBottomText">
-        <h1>ReLacks</h1>
-      </div>
+  <div className="imageBannerOne">
+    <div id="bannerOne">
+      
+    </div>
+    <div id="bannerTwo">
+      
+    </div>
+    <div id="bannerThree">
+      
+    </div>
+  </div>
+  <div className="secondBlurbBox">
+    <h1>WE GOT SOME TEXT</h1>
+    <h1>WE GOT SOME TEXT</h1>
+    <h1>WE GOT SOME TEXT</h1>
+  </div>
+  <div className="imageBannerTwo">
+    <div id="bannerFour">
+      
+    </div>
+    <div id="bannerFive">
+      
+    </div>
+    <div id="bannerSix">
+      
     </div>
   </div>
   </div>;

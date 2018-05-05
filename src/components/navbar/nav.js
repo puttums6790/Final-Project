@@ -23,16 +23,18 @@ import { Link } from "react-router-dom";
 
 const GuestNavbar = props => {
   return <div className="header">
-          <div className="titleBox">
-            <h1>ReLacks</h1>
-          </div>
+
+          <Link to="/"><div className="titleBox">
+            <h1 className="titleText">ReLacks</h1>
+          </div></Link>
           <div className="routesBox">
-            <div className="routesHolder">
-              <Link to="/login">SIGN IN</Link>
-            </div>
-            <div className="routesHolder">
-              <Link to="/register">Not a member REGISTER</Link>
-            </div>
+            <Link to="/login"><div className="routesHolder">
+              <p>SIGN IN</p>
+            </div></Link>
+            
+            <Link to="/register"><div className="routesHolder">
+              <p>Not a member REGISTER</p>
+            </div></Link>
           </div>
         </div>;
 }
