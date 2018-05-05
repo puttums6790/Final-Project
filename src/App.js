@@ -4,7 +4,8 @@ import getCards from './components/get-cards'
 import GiveCard from './components/give-cards/giveCards'
 import Landing from './components/landing/landing'
 import LoginPage from './components/login-page/logPage'
-import GuestNavbar from './components/navbar/nav'
+import GuestNavbar from './components/navbar/guestNav'
+import UserNavbar from './components/navbar/nav'
 import ProfilePage from './components/profile-page/pPage'
 import RegistrationPage from './components/registration-page/regPage'
 import SearchPage from './components/search-page/searchPage'
@@ -13,20 +14,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 /* ROUTES FOR LATER BUT HAVENT DESIGNED NAVBAR SWITCH YET 
 
-<Route exact path="/submit" 
-                   render={() => <SubmissionPage />} />
+<Link to="/submit">SUBMIT</Link>
 
-<Link to="/submit">SIGN IN</Link>
+<Link to="/search">SEARCH</Link>
 
-<Route exact path="/search" 
-                   render={() => <SearchPage />} />
 
-<Link to="/search">SIGN IN</Link>
-
-<Route exact path="/profile" 
-                   render={() => <ProfilePage />} />
-
-<Link to="/profile"></Link>   
+<Link to="/profile">PROFILE</Link>   
 
 */
 
@@ -36,13 +29,20 @@ class App extends Component {
     return (
     <Router>
     <div>
-      <GuestNavbar />
+      <UserNavbar />
       
       <Route exact path="/" component={Landing} />
       <Route exact path="/login" 
                    render={() => <LoginPage />} />
       <Route exact path="/register" 
                    render={() => <RegistrationPage />} />
+      <Route exact path="/submit" 
+                   render={() => <SubmissionPage />} />
+      <Route exact path="/search" 
+                   render={() => <SearchPage />} />
+      <Route exact path="/profile" 
+                   render={() => <ProfilePage />} />
+
           
 
     </div>

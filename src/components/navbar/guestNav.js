@@ -3,23 +3,22 @@ import './Nav.css';
 import { Link } from "react-router-dom";
 
 
-const UserNavbar = props => {
+const GuestNavbar = props => {
   return <div className="header">
+
           <Link to="/"><div className="titleBox">
             <h1 className="titleText">ReLacks</h1>
           </div></Link>
           <div className="routesBox">
-            <Link to="/submit"><div className="routesHolder">
-              <p>SUBMIT</p>
+            <Link to="/login"><div className="routesHolder">
+              <p>SIGN IN</p>
             </div></Link>
-            <Link to="/search"><div className="routesHolder">
-              <p>SEARCH</p>
-            </div></Link>
-            <Link to="/profile"><div className="routesHolder">
-              <p>PROFILE</p>
+            
+            <Link to="/register"><div className="routesHolder">
+              <p>Not a member REGISTER</p>
             </div></Link>
           </div>
         </div>;
 }
 
-export default UserNavbar;
+export default GuestNavbar;
