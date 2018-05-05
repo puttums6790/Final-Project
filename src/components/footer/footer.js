@@ -4,10 +4,12 @@ import { Link } from "react-router-dom";
 
 
 const Footer = props => {
-  return <div className="footer">
-          <div className="footerTextBox">
-            <h4 className="footerText">© ReLacks inc.</h4>
-          </div>
+  return <div>
+  			<div className="footer">
+          		<div className="footerTextBox">
+            		<h4 className="footerText">© ReLacks inc.</h4>
+          		</div>
+        	</div>
         </div>;
 }
 
