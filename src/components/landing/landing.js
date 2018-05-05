@@ -52,13 +52,13 @@ const Landing = pages => {
   </div>
   <div className="imageBannerTwo">
     <div id="bannerFour">
-      <img src="" />
+      
     </div>
     <div id="bannerFive">
-      <img src="" />
+      
     </div>
     <div id="bannerSix">
-      <img src="" />
+      
     </div>
   </div>
   </div>;

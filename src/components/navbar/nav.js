@@ -23,9 +23,10 @@ import { Link } from "react-router-dom";
 
 const GuestNavbar = props => {
   return <div className="header">
-          <div className="titleBox">
-            <h1>ReLacks</h1>
-          </div>
+
+          <Link to="/"><div className="titleBox">
+            <h1 className="titleText">ReLacks</h1>
+          </div></Link>
           <div className="routesBox">
             <Link to="/login"><div className="routesHolder">
               <p>SIGN IN</p>

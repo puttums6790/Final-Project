@@ -66,6 +66,7 @@ body {
 .websiteName {
 	font-size: 9.0rem;
 	text-shadow: 2px 2px 4px #000000;
+	margin-top: 20px;
 }
 
 .websiteSubOne {
@@ -84,7 +85,7 @@ body {
 	margin-left: 5%;
 	margin-right: 5%;
 	width: 90%;
-	height: 120px;
+	height: 170px;
 	clear: both;
 }
 
@@ -92,7 +93,7 @@ body {
 	margin-left: 5%;
 	margin-right: 5%;
 	width: 90%;
-	height: 150px;
+	height: 170px;
 	clear: both;
 }
 
@@ -101,8 +102,8 @@ body {
 	width: 33%;
 	float: left;
 	height: 150px;
-	background-image: url("BeachImage.jpg");
-	background-size: 100% 150px;
+	background-image: url("BannerOne.jpg");
+	background-size: 100% 170px;
 
 }
 
@@ -111,8 +112,8 @@ body {
 	width: 34%;
 	float: left;
 	height: 150px;
-	background-image: url("ScenicBeach.png");
-	background-size: 100% 150px;
+	background-image: url("BannerTwo.jpeg");
+	background-size: 100% 170px;
 }
 
 #bannerThree {
@@ -120,6 +121,33 @@ body {
 	width: 33%;
 	float: left;
 	height: 150px;
+	background-image: url("BannerThree.jpg");
+	background-size: 100% 170px;
+}
+
+#bannerFour {
+	background: red;
+	width: 33%;
+	float: left;
+	height: 150px;
 	background-image: url("BeachImage.jpg");
-	background-size: 100% 150px;
+	background-size: 100% 170px;
+}
+
+#bannerFive {
+	background: red;
+	width: 33%;
+	float: left;
+	height: 150px;
+	background-image: url("BeachImage.jpg");
+	background-size: 100% 170px;
+}
+
+#bannerSix {
+	background: red;
+	width: 33%;
+	float: left;
+	height: 150px;
+	background-image: url("BeachImage.jpg");
+	background-size: 100% 170px;
 }
