@@ -31,8 +31,8 @@ const Landing = pages => {
         <h1>Get Stuff</h1>
       </div>
       <div className="firstBlurbTwoText">
-        <p>scudfhaefuhaf afhafou afuoghf ahfuhaof hawu af af  aefaef af ea aef aef afgaegf</p>
-        <p>scudfhaefuhaf afhafouas sada fe gsgdagf sdgsf gs dgs  gssdgsdg sdg sdg sdg sdg sdg sdg afuoghf ahfuhaof hawu af af  aefaef af ea aef aef afgaegf</p>
+        <p>Why spend money on things you will only use once!</p>
+        <p>Find someone who is willing to give you the items you need for free!</p>
       </div>
     </div>
   </div>
