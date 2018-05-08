@@ -39,15 +39,15 @@
 .firstBlurbOne {
 	width: 50%;
 	float: left;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 7%;
+	padding-right: 5%;
 }
 
 .firstBlurbTwo {
 	width: 50%;
 	float: right;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 5%;
+	padding-right: 7%;
 }
 
 body {
@@ -65,7 +65,7 @@ body {
 
 .websiteName {
 	font-size: 9.0rem;
-	text-shadow: 2px 2px 4px #000000;
+	text-shadow: 4px 4px 4px #000000;
 	margin-top: 20px;
 }
 
@@ -101,9 +101,9 @@ body {
 	background: red;
 	width: 33%;
 	float: left;
-	height: 150px;
+	height: 190px;
 	background-image: url("BannerOne.jpg");
-	background-size: 100% 170px;
+	background-size: 100% 190px;
 
 }
 
@@ -111,43 +111,61 @@ body {
 	background: green;
 	width: 34%;
 	float: left;
-	height: 150px;
+	height: 190px;
 	background-image: url("BannerTwo.jpeg");
-	background-size: 100% 170px;
+	background-size: 100% 190px;
 }
 
 #bannerThree {
 	background: red;
 	width: 33%;
 	float: left;
-	height: 150px;
+	height: 190px;
 	background-image: url("BannerThree.jpg");
-	background-size: 100% 170px;
+	background-size: 100% 190px;
 }
 
 #bannerFour {
 	background: red;
 	width: 33%;
 	float: left;
-	height: 150px;
+	height: 190px;
 	background-image: url("BannerFive.jpg");
-	background-size: 100% 170px;
+	background-size: 100% 190px;
 }
 
 #bannerFive {
 	background: red;
-	width: 33%;
+	width: 34%;
 	float: left;
-	height: 150px;
+	height: 190px;
 	background-image: url("BannerFour.jpeg");
-	background-size: 100% 170px;
+	background-size: 100% 190px;
 }
 
 #bannerSix {
 	background: red;
 	width: 33%;
 	float: left;
-	height: 150px;
+	height: 190px;
 	background-image: url("BannerSix.jpg");
-	background-size: 100% 170px;
+	background-size: 100% 190px;
+}
+
+.secondBlurbLeft {
+	float: left;
+	width: 50%;
+	padding-left: 7%;
+	padding-right: 5%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.secondBlurbRight {
+	float: left;
+	width: 50%;
+	padding-left: 5%;
+	padding-right: 7%;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }

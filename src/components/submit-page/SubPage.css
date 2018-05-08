@@ -14,6 +14,7 @@ body {
 .submissionTitleBox {
 	margin-top: 3%;
 	margin-left: 5%;
+	margin-bottom: 30px;
 }
 
 .submissionPageSplit {
@@ -24,6 +25,7 @@ body {
 .stepTitleBox {
 	margin-left: 6%;
 	clear: left;
+	margin-top: 30px;
 }
 
 .typeSelectorHolder {
@@ -70,6 +72,11 @@ body {
 
 #priceInputField {
 	width: 13%;
+}
+
+.submissionPageButtonBox:active {
+  background: #87CEEB;
+  color: white;
 }
 
 .submissionPageButtonBox {

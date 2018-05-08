@@ -48,9 +48,15 @@ const Landing = pages => {
     </div>
   </div>
   <div className="secondBlurbBox">
-    <h1>WE GOT SOME TEXT</h1>
-    <h1>WE GOT SOME TEXT</h1>
-    <h1>WE GOT SOME TEXT</h1>
+    <div className="secondBlurbLeft">
+      <h1>MISSION STATEMENT</h1>
+      <p>skfbaskfbakfbakfbafbakfbaksf asdkhasfvkasf asfkhasbfkashf asfhkasvfkahsf asfhvafhabfka fhabvef fhvasf fhaevf ahbfasodfa fhbvasf</p>
+    </div>
+    <div className="secondBlurbRight">
+      <h1>SEARCH LOCAL LISTINGS</h1>
+      <p>skfbaskfbakfbakfbafbakfbaksf asdkhasfvkasf asfkhasbfkashf asfhkasvfkahsf asfhvafhabfka fhabvef fhvasf fhaevf ahbfasodfa fhbvasf</p>
+      <p></p>
+    </div>
   </div>
   <div className="imageBannerTwo">
     <div id="bannerFour">

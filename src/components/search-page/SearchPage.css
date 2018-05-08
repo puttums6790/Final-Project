@@ -2,7 +2,7 @@ body {
 	background: #FAF0E6;
 }
 
-.pageFrame {
+.profileFrame {
 	background: white;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -14,6 +14,7 @@ body {
 .searchPageHeader {
 	margin-left: 5%;
 	margin-top: 3%;
+	margin-bottom: 30px;
 }
 
 .searchPageTitleSplit {
@@ -38,4 +39,9 @@ body {
 	margin-left: 6%;
 	height: 380px;
 	background: green;
+}
+
+.searchCardHolder {
+	margin-top: 30px;
+	margin-left: 6.5%;
 }

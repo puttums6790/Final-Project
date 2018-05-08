@@ -1,7 +1,7 @@
 import React from 'react';
 import './GetCards.css'
 
-export const GetCard = props => {
+const GetCard = props => {
   return <div className="getStuffBox">
   <div className="getStuffTitleBox">
     <h3 className="getStuffTitle">THE THING</h3>
@@ -28,3 +28,5 @@ export const GetCard = props => {
   </div>
 </div>;
 }
+
+export default GetCard
