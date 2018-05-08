@@ -1,6 +1,7 @@
 import React from 'react';
 import './LogPage.css'
 import './hikingImageTwo.jpg'
+import LogIn from '../../clickHandlers/logIn'
 
 const LoginPage = pages => {
   return <div className="registrationFrame">
@@ -13,8 +14,8 @@ const LoginPage = pages => {
           <label for="passwordRegistrationField">Password</label>
           <input type="password" className="form-control" id="passwordRegistrationField" placeholder="Password"/>
         </div>
-        <div className="registrationPageButtonBox">
-        <h6 class="registrationPageButtonText">Submit</h6>
+        <div className="registrationPageButtonBox" onClick={LogIn}>
+        <h6 className="registrationPageButtonText">Submit</h6>
       </div>
         
 
