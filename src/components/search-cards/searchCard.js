@@ -1,7 +1,7 @@
 import React from 'react';
-import './GiveCards.css'
+import './SearchCard.css'
 
-const GiveCard = props => {
+const SearchCard = props => {
   return <div className="giveStuffBox">
   <div className="giveStuffTitleBox">
     <h3 className="giveStuffTitle">THE THING</h3>
@@ -27,4 +27,4 @@ const GiveCard = props => {
 </div>
 }
 
-export default GiveCard
+export default SearchCard

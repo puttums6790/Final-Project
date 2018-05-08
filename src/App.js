@@ -12,25 +12,20 @@ import RegistrationPage from './components/registration-page/regPage'
 import SearchPage from './components/search-page/searchPage'
 import SubmissionPage from './components/submit-page/subPage'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import SearchCard from './components/search-cards/searchCard'
 
-/* ROUTES FOR LATER BUT HAVENT DESIGNED NAVBAR SWITCH YET 
-
-<Link to="/submit">SUBMIT</Link>
-
-<Link to="/search">SEARCH</Link>
-
-
-<Link to="/profile">PROFILE</Link>   
-
-*/
-
+var loggedIn = true;
 
 class App extends Component {
   render() {
     return (
     <Router>
     <div>
-      <UserNavbar />
+      if (loggedIn === true) {
+        <UserNavbar />
+      } else if (loggedIn === false) {
+        <GuestNavbar />
+      }
       
       <Route exact path="/" 
                    render={() => <div>
@@ -41,12 +36,10 @@ class App extends Component {
       <Route exact path="/login" 
                    render={() => <div>
                                     <LoginPage /> 
-                                    <Footer />
                                   </div>} />
       <Route exact path="/register" 
                    render={() => <div>
                                     <RegistrationPage />
-                                    <Footer />
                                   </div>} />
       <Route exact path="/submit" 
                    render={() => <div>

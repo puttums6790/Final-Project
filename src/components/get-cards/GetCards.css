@@ -73,6 +73,11 @@
 	margin-top: 2%;
 }
 
+.getStuffContentSubtext:active {
+  background: #87CEEB;
+  color: white;
+}
+
 .getStuffContentSubtextText {
 	text-align: center;
 	padding-top: 5%

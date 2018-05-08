@@ -1,5 +1,7 @@
 import React from 'react';
 import './PPage.css'
+import GiveCard from '../give-cards/giveCards'
+import GetCard from '../get-cards/getCards'
 
 const ProfilePage = pages => {
   return <div className="profileFrame">
@@ -17,11 +19,11 @@ const ProfilePage = pages => {
   <div className="myStuffFrame">
     <h3 className="myGives">MY GIVES</h3>
     <div className="cardHolder">
-      <p>load cards here</p>
+      <GiveCard />
     </div>
     <h3 className="myGets">MY GETS</h3>
     <div className="cardHolder">
-      <p>load cards here</p>
+      <GetCard />
     </div>
   </div>
   <div className="personalInfoBox">

@@ -1,5 +1,6 @@
 import React from 'react';
 import './SearchPage.css'
+import SearchCard from '../search-cards/searchCard'
 
 const SearchPage = pages => {
   return  <div className="pageFrame">
@@ -15,7 +16,7 @@ const SearchPage = pages => {
       <h2>GOOGLE MAPS HERE</h2>
     </div>
     <div className="searchCardHolder">
-      <p>cards from here on out</p>
+      <SearchCard />
     </div>
   </div>;
 }

@@ -74,6 +74,11 @@ body {
 	width: 13%;
 }
 
+.submissionPageButtonBox:active {
+  background: #87CEEB;
+  color: white;
+}
+
 .submissionPageButtonBox {
 	float: left;
 	margin-left: 5.5%;
