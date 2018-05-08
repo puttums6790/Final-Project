@@ -2,7 +2,11 @@
     "development": {
       "username": "root",
       "password": "",
+<<<<<<< HEAD
       "database": "relacks_db",
+=======
+      "database": "project_two4_db",
+>>>>>>> 5a3f6c5c4a0ea030da677c812d6232c58969a55a
       "host": "127.0.0.1",
       "dialect": "mysql"
     },

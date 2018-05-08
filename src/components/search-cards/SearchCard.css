@@ -69,11 +69,6 @@
 	margin-top: 17%
 }
 
-.giveStuffContentSubtext:active {
-  background: #87CEEB;
-  color: white;
-}
-
 .giveStuffContentSubtextText {
 	text-align: center;
 	padding-top: 5%
