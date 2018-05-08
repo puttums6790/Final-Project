@@ -6,7 +6,7 @@ CREATE TABLE users (
     userID int NOT NULL AUTO_INCREMENT,
     FirstName varchar(255) NOT NULL,
     LastName varchar(255) NOT NULL,
-    PRIMARY KEY (id)
+    PRIMARY KEY (userid)
 );
 
 CREATE TABLE category (
