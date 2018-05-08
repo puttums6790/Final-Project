@@ -20,12 +20,12 @@ module.exports= function(sequelize, DataTypes) {
         }
       }
     },
-    profilePic: {
+    email: {
       type: DataTypes.STRING,
       allowNull: true,
       validate: {
         notEmpty: {
-          msg: 'Photo is required'
+          msg: 'email is required'
         }
       }
     },
