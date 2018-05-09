@@ -3,6 +3,8 @@
 var express = require(‘express’);
 var mongoose = require(‘mongoose’);
 var bodyParser = require(‘body-parser’);
+var db = require('./models');
+)
 //and create our instances
 var app = express();
 var router = express.Router();
@@ -24,6 +26,10 @@ app.use(function(req, res, next) {
  res.setHeader(‘Cache-Control’, ‘no-cache’);
  next();
 });
+
+// Static Directory
+app.use(express.static("app"));
+
 //now we can set the route path & initialize the API
 router.get(‘/’, function(req, res) {
  res.json({ message: ‘API Initialized!’});
@@ -31,6 +37,8 @@ router.get(‘/’, function(req, res) {
 //Use our router configuration when we call /api
 app.use(‘/api’, router);
 //starts the server and listens for requests
-app.listen(port, function() {
- console.log(`api running on port ${port}`);
+db.sequelize.sync().then(function() {
+    app.listen(PORT, function() {
+        console.log("App running on PORT " + PORT);
+    });
 });

@@ -1,19 +1,28 @@
-var mysql = require("mysql");
+// *********************************************************************************
+// CONNECTION.JS - THIS FILE INITIATES THE CONNECTION TO MYSQL
+// *********************************************************************************
 
-var connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "relacks"
-});
+const Sequelize = require('sequelize');
+const sequelize = new Sequelize('database', 'username', 'password', {
+  host: 'localhost',
+  dialect: 'mysql'|'sqlite'|'postgres'|'mssql',
+  operatorsAliases: false,
 
+  pool: {
+    max: 5,
+    min: 0,
+    acquire: 30000,
+    idle: 10000
+  });
 
-connection.connect(function(err) {
-  if (err) {
-    console.error("error connecting: " + err.stack);
-    return;
-  }
-  console.log("connected as id " + connection.threadId);
-});
+// Exports the connection for other files to use
+module.exports = sequelize;
 
-module.exports = connection;
+sequelize
+  .authenticate()
+  .then(() => {
+    console.log('Connection has been established successfully.');
+  })
+  .catch(err => {
+    console.error('Unable to connect to the database:', err);
+  });
