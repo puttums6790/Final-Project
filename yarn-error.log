@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/Cellar/node/8.9.0/bin/node /usr/local/bin/yarn start
+
+PATH: 
+  /opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "rentalapp",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "cookie-parser": "^1.4.3",
+      "express": "^4.16.3",
+      "morgan": "^1.9.0",
+      "react": "^16.3.2",
+      "react-dom": "^16.3.2",
+      "react-router-dom": "^4.2.2",
+      "react-scripts": "1.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 127
+  Command: sh
+  Arguments: -c react-scripts start
+  Directory: /Users/NoahStrayve/Desktop/Final-Project
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/lib/node_modules/yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:30281:17)
+      at emitTwo (events.js:126:13)
+      at ChildProcess.emit (events.js:214:7)
+      at maybeClose (internal/child_process.js:925:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
