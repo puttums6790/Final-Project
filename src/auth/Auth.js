@@ -1,11 +1,13 @@
 import history from './history';
 import auth0 from 'auth0-js';
 
+const redirectUri = `${window.location.protocol}//${window.location.host}/callback`
+
 export default class Auth {
   auth0 = new auth0.WebAuth({
     domain: 'relacks.auth0.com',
     clientID: 'FueQ5y1geS4esCvVC1MyQUZ8xgKS9PoL',
-    redirectUri: 'http://localhost:3000/callback',
+    redirectUri,
     audience: `https://relacks.auth0.com/userinfo`,
     responseType: 'token id_token',
     scope: 'openid'
