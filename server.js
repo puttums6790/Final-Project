@@ -1,8 +1,12 @@
 ‘use strict’
+
 //first we import our dependencies…
 var express = require(‘express’);
 var mongoose = require(‘mongoose’);
+var passport = require('passport');
+
 var bodyParser = require(‘body-parser’);
+
 //and create our instances
 var app = express();
 var router = express.Router();
@@ -13,6 +17,7 @@ var port = process.env.API_PORT || 3001;
 //JSON data in the request body
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(express.static("client/build"));
 //To prevent errors from Cross Origin Resource Sharing, we will set 
 //our headers to allow CORS with middleware like so:
 app.use(function(req, res, next) {
@@ -30,6 +35,16 @@ router.get(‘/’, function(req, res) {
 });
 //Use our router configuration when we call /api
 app.use(‘/api’, router);
+
+mongoose.Promise = global.Promise;
+// Connect to the Mongo DB
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://localhost/nytarticles",
+  {
+    useMongoClient: true
+  }
+);
+
 //starts the server and listens for requests
 app.listen(port, function() {
  console.log(`api running on port ${port}`);
