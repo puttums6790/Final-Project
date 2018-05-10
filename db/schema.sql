@@ -6,10 +6,11 @@ CREATE TABLE users (
     userID int NOT NULL AUTO_INCREMENT,
     FirstName varchar(255) NOT NULL,
     LastName varchar(255) NOT NULL,
-    PRIMARY KEY (userid)
+    PRIMARY KEY (userID)
 );
 
-CREATE TABLE category (
+CREATE TABLE post (
+    postID int NOT NULL AUTO_INCREMENT,
     Beach varchar(255) NOT NULL,
     Aquatic varchar(255) NOT NULL,
     SportsEquipment varchar(255) NOT NULL,

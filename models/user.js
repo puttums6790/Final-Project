@@ -1,14 +1,29 @@
+"use strict";
 //Dependencies
 //=============================================================
 var bcrypt = require("bcrypt");
 // Sequelize (capital) references the standard library
 var Sequelize = require("sequelize");
 // sequelize (lowercase) references my connection to the DB.
-var sequelize = require("../config/connection.js");
+//var sequelize = require("../config/connection.js");
+var mongoose = require("mongoose");
 
-module.exports= function(sequelize, DataTypes) {
-	var User = sequelize.define("users", {
-		firstName: {
+module.exports = (sequelize, DataTypes) => {
+  var User = sequelize.define("User", {
+    UserID: DataTypes.STRING,
+    FirstName: DataTypes.STRING,
+    LastName: DataTypes.STRING,
+  }, {});
+
+  /*
+	var User = sequelize.define("User", {
+    userID: {
+			type: DataTypes.STRING,
+			allowNull: false,
+      notEmpty: {
+        msg: 'A user ID is required'
+      },
+		FirstName: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
@@ -17,7 +32,7 @@ module.exports= function(sequelize, DataTypes) {
         }
       }
     },
-    lastName: {
+    LastName: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
@@ -26,21 +41,6 @@ module.exports= function(sequelize, DataTypes) {
         }
       }
     },
-    profilePic: {
-      type: DataTypes.STRING,
-      allowNull: true,
-      validate: {
-        notEmpty: {
-          msg: 'Photo is required'
-        }
-      }
-    },
-		username: {
-			type: DataTypes.STRING,
-			allowNull: false,
-      notEmpty: {
-        msg: 'Username is required'
-      },
 			unique: {
         args: true,
         msg: 'Sorry, that username is taken.',
@@ -65,20 +65,29 @@ module.exports= function(sequelize, DataTypes) {
       }   		
 		}
   });
+
+  User.sync({force: true}).then(() => {
+    // Table created
+    return User.create({
+      firstName: 'John',
+      lastName: 'Hancock'
+    });
+  });
+
+  */
   
   User.prototype.validPassword = function (password) {
     return bcrypt.compareSync(password, this.password)
   }
   
   User.associate = function(models) {
-    User.hasMany(models.posts, {
-      onDelete: 'CASCADE'
-    });
+    User.hasMany(models.Post, 
+      {foreignKey: 'userID', onDelete: 'cascade'});
   };
   return User;
 };
 
-
+/*
 
 // =============================================================
 // *** Create Comment Model
@@ -89,3 +98,5 @@ var Comment = mongoose.model('Comment', newComment);
 // *** Export the Comment Model
 // =============================================================
 module.exports = Comment;
+
+*/

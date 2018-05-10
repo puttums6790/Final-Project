@@ -5,7 +5,7 @@
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize('database', 'username', 'password', {
   host: 'localhost',
-  dialect: 'mysql'|'sqlite'|'postgres'|'mssql',
+  dialect: 'mysql',
   operatorsAliases: false,
 
   pool: {
@@ -13,7 +13,7 @@ const sequelize = new Sequelize('database', 'username', 'password', {
     min: 0,
     acquire: 30000,
     idle: 10000
-  });
+  }});
 
 // Exports the connection for other files to use
 module.exports = sequelize;
