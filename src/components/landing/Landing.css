@@ -28,7 +28,7 @@
 }
 
 #firstBlurbBox {
-	height: 300px;
+	height: 275px;
 }
 
 .blurbTitle {
@@ -87,6 +87,7 @@ body {
 	width: 90%;
 	height: 170px;
 	clear: both;
+	margin-bottom: 30px;
 }
 
 .imageBannerTwo {
@@ -168,4 +169,8 @@ body {
 	padding-right: 7%;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.secondBlurbTitle {
+	margin-bottom: 20px;
 }
