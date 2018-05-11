@@ -6,11 +6,11 @@ const RegistrationPage = pages => {
     <div className="registrationBox">
       <div className="form-group" id="registrationFieldBox">
           <label for="emailRegistrationField">Email</label>
-          <input type="password" class="form-control" id="emailRegistrationField" placeholder="Email"/>
+          <input type="text" class="form-control" id="emailRegistrationField" placeholder="Email"/>
         </div>
         <div className="form-group" id="registrationFieldBox">
           <label for="usernameRegistrationField">Username</label>
-          <input type="password" className="form-control" id="usernameRegistrationField" placeholder="Username"/>
+          <input type="text" className="form-control" id="usernameRegistrationField" placeholder="Username"/>
         </div>
         <div className="form-group" id="registrationFieldBox">
           <label for="passwordRegistrationField">Password</label>

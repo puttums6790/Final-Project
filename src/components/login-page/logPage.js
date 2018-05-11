@@ -8,7 +8,7 @@ const LoginPage = pages => {
     <div className="loginBox">
         <div className="form-group" id="registrationFieldBox">
           <label for="usernameRegistrationField">Username</label>
-          <input type="password" className="form-control" id="usernameRegistrationField" placeholder="Username"/>
+          <input type="text" className="form-control" id="usernameRegistrationField" placeholder="Username"/>
         </div>
         <div className="form-group" id="registrationFieldBox">
           <label for="passwordRegistrationField">Password</label>

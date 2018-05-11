@@ -20,14 +20,14 @@ const Landing = pages => {
         <h1 className="blurbTitle">GIVE</h1>
       </div>
       <div className="firstBlurbOneText">
-        <p>Have equipment you don't use? Don't let it collect dust in your garage, 
+        <h5>Have equipment you don't use? Don't let it collect dust in your garage, 
         or take up space in your room! Post it on ReLacks and earn cash, while someone 
-        gets to enjoy one of your favorite hobbies.</p>
-        <p>Connecting you with users in your area, you can seamlessly lease your stuff.
+        gets to enjoy one of your favorite hobbies.</h5>
+        <h5>Connecting you with users in your area, you can seamlessly lease your stuff.
         Whether it's an easel and paint, or simply a basketball, there is no doubt
-        someone will be looking to use your products</p>
-        <p>Whatever your method, getting started with ReLacks is a simple way towards
-        entrepeneurship.</p>
+        someone will be looking to use your products</h5>
+        <h5>Whatever your method, getting started with ReLacks is a simple way towards
+        entrepeneurship.</h5>
       </div>
     </div>
     <div className="firstBlurbTwo">
@@ -35,12 +35,12 @@ const Landing = pages => {
         <h1 className="blurbTitle">GET</h1>
       </div>
       <div className="firstBlurbTwoText">
-        <p>Tired of wanting to try new things, but being bound by the restrictions of 
-        your financial situation.</p>
-        <p>Help has finally arrived. With ReLacks we connect you with people in your area
+        <h5>Tired of wanting to try new things, but being bound by the restrictions of 
+        your financial situation.</h5>
+        <h5>Help has finally arrived. With ReLacks we connect you with people in your area
         who have resources they're no longer using. Want to try Kayaking, or have a barbeque
-        with friends? Now you can!</p>
-        <p>Having fun is a breeze with ReLacks!</p>
+        with friends? Now you can!</h5>
+        <h5>Having fun is a breeze with ReLacks!</h5>
       </div>
     </div>
   </div>
@@ -58,16 +58,16 @@ const Landing = pages => {
   <div className="secondBlurbBox">
     <div className="secondBlurbLeft">
       <h1 className="secondBlurbTitle">MISSION STATEMENT</h1>
-      <p>Here at ReLacks our goal is to foster creativity and connections in 
+      <h5>Here at ReLacks our goal is to foster creativity and connections in 
       communities nationwide. By encouraging the flow of equipment of all sorts, 
       we hope to allow for new freedoms for our users. Financial opportunities for our 
-      givers, and the joy of leisure time for our getters.</p>
+      givers, and the joy of leisure time for our getters.</h5>
     </div>
     <div className="secondBlurbRight">
       <h1 className="secondBlurbTitle">SEARCH LOCAL LISTINGS</h1>
-      <p>Connect with other users in your area to find your perfect match. Whether you're 
+      <h5>Connect with other users in your area to find your perfect match. Whether you're 
       a local looking to try something new, or traveling from out of town and looking for 
-      something fun to do, ReLacks is the perfect way to get started!</p>
+      something fun to do, ReLacks is the perfect way to get started!</h5>
 
     </div>
   </div>
