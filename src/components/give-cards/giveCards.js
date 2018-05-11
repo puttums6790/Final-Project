@@ -1,5 +1,5 @@
 import React from 'react';
-import './GiveCards.css'
+import './GiveCards.css';
 
 const GiveCard = props => {
   return <div className="giveStuffBox">

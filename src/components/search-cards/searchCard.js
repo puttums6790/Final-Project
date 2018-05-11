@@ -2,25 +2,22 @@ import React from 'react';
 import './SearchCard.css'
 
 const SearchCard = props => {
-  return <div className="giveStuffBox">
-  <div className="giveStuffTitleBox">
-    <h3 className="giveStuffTitle">THE THING</h3>
+  return <div className="searchStuffBox">
+  <div className="searchStuffTitleBox">
+    <h3 className="searchStuffTitle">THE THING</h3>
   </div>
-  <div className="giveStuffContentMap">
+  <div className="searchStuffContentMap">
     <p>THIS IS WHERE GOOGLE MAPS GOES</p>
   </div>
-  <div className="giveStuffContentBox">
-    <div className="giveStuffContentText">
+  <div className="searchStuffContentBox">
+    <div className="searchStuffContentText">
       <p>Category: </p>
       <p>Description: </p>
       <p>Dates Claimed: </p>
     </div>
-    <div className="giveStuffContentSubtextBox">
-      <div className="giveStuffContentSubtext">
-        <h6 className="giveStuffContentSubtextText">Contact Getter</h6>
-      </div>
-      <div className="giveStuffContentSubtext">
-        <h6 className="giveStuffContentSubtextText">Remove Listing</h6>
+    <div className="searchStuffContentSubtextBox">
+      <div className="searchStuffContentSubtext">
+        <h6 className="searchStuffContentSubtextText">Claim Item</h6>
       </div>      
     </div>
   </div>
